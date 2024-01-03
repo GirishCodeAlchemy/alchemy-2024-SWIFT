@@ -19,6 +19,7 @@
 **Inbuilt functions**
 
 - **_string_**
+
   ```swift
   // String functions
   myName.uppercased()
@@ -27,3 +28,14 @@
   myName.isEmpty
   myName.hasPrefix("Gi")
   ```
+
+- **stringInterpolation**
+
+```swift
+let firstName = "Girish"
+let lastName = "V"
+let age = 29
+firstName + lastName // only strings can get joined if there is other type then use below format
+
+"My name is \(firstName) \(lastName) and age is \(age)"
+```
