@@ -32,3 +32,16 @@ var x=5
 x=x+1
 x +=1
 ```
+
+#### Not operator
+
+```swift
+!(width < height)
+```
+
+#### Type casting
+
+```swift
+var a = 10
+var b: Double = Double(a)
+```

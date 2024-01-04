@@ -29,3 +29,10 @@ x += 1   //7
 x -= 2   //5
 x /= 3   //1
 print(x)
+
+
+
+// Type casting
+var a = 10
+var b: Double = Double(a)
+print(b)

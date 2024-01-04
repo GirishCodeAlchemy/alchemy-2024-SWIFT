@@ -7,3 +7,9 @@ width <= height
 
 width > height
 width >= height
+
+print(width == height)
+
+// Not operator
+!(width < height)
+
