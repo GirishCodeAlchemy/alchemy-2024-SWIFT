@@ -33,3 +33,8 @@ if width == 5 || width > 7{
     print("width is 5 or greater than 7")
 }
 ```
+
+### Ternary operator
+
+message = width > 7 ? "width is greator than 7" : "width is less than 7"
+print(message)
