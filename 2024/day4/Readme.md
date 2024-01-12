@@ -1,0 +1,20 @@
+### **Conditions**
+
+### if else
+
+```swift
+let width: Double = 7
+
+if width >= 7 {
+    if width > 7 {
+        print("width is greater than 7")
+    } else {
+        print("width is 7")
+    }
+} else if width > 4 {
+    print("width is greater than 4")
+} else {
+    print("width is less than 4")
+}
+
+```
