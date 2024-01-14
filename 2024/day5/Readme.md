@@ -65,6 +65,8 @@ switch errors{
 ```
 
 </details>
+<img width="412" alt="switch" src="https://github.com/GirishCodeAlchemy/alchemy-2024-SWIFT/assets/143807663/8205b85a-8deb-4727-8621-3229e1d1bcae">
+
 
 <details>
 <summary>Arrays</summary>
@@ -158,3 +160,4 @@ weekends[0] = "Monday" // error: cannot assign through subscript: 'weekends' is 
 ```
 
 </details>
+<img width="538" alt="arrays" src="https://github.com/GirishCodeAlchemy/alchemy-2024-SWIFT/assets/143807663/d18c55ca-b10b-4a0b-a541-3e3e392d5283">
