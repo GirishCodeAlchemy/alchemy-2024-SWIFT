@@ -1,3 +1,4 @@
+ import Foundation
 // Type Inference
 let myAge = 29  //Integter
 let myName = "Girish"  //Stign
@@ -11,12 +12,11 @@ let secondFriend: String
 secondFriend = "Swift"
 
 // String functions
-myName.uppercased()
-myName.lowercased()
-myName.capitalized
-myName.isEmpty
-myName.hasPrefix("Gi")
-
+print(myName.uppercased())
+print(myName.lowercased())
+print(myName.capitalized)  // this is present in foundation package
+print(myName.isEmpty)
+print(myName.hasPrefix("Gi"))
 
 
 // Numbers

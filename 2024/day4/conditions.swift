@@ -9,7 +9,7 @@ if itWillSnow {
 
 
 // nested if else and elseif
-
+let width: Double = 7
 if width >= 7 {
     if width > 7 {
         print("width is greater than 7")
