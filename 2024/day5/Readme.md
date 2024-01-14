@@ -1,6 +1,7 @@
 ### **Switch and arrays**
 
-### switch
+<details>
+<summary>Switch</summary>
 
 1. Switch multi case
    > You can add more than one cases using comma
@@ -42,7 +43,9 @@ switch marks{
 ```
 
 3. switch fallthrough and break statements
+
    > `fallthorugh`: it will go to next case
+
    > `break`: will exit after that case gets executed
 
 ```swift
@@ -60,3 +63,98 @@ switch errors{
         Print("error not defined")
 }
 ```
+
+</details>
+
+<details>
+<summary>Arrays</summary>
+
+1.
+
+```swift
+var grades = ["Excellent",  "good", "pass", "fail"]
+```
+
+> define the array type `var grades:[Sting]`
+> If you try to add integers then it will error out `grade=[2,4,"good",6]`
+
+> Arrays should have same data type
+
+2.  Last index of the item
+
+```swift
+// Last index of the item
+print(grades[grades.count - 1])
+```
+
+3. Fetch range of items
+   > use 3 dots to fetch which act as slices
+
+```swift
+// Fetch range of items
+print(grades[1...3])
+print(grades[1...grades.count - 2])
+```
+
+4. Array to store differnet types
+   > to know the type of array use type(of: T)
+
+```swift
+// Array to store differnet types
+var multigrade: [Any] = [2,4,"good",6]
+print(multigrade)
+print(type(of:grades), type(of: multigrade))
+```
+
+5. Merging two arrays
+   > use `+` to merge the two arrays
+
+```swift
+// Merge two arrays
+var finalarray = multigrade + [3, "excellet", 4]
+print(finalarray)
+```
+
+6. Append in the array
+
+```swift
+// append the data
+grades.append("Not defined")
+```
+
+7. Inset an item
+   > use insert function with `at` parameter position to where the item need to be inserted
+
+```swift
+// insert at particular position
+multigrade.insert("Excellent", at: 0)
+print(multigrade)
+```
+
+8. Delete an item
+
+```swift
+// remove an item from array
+multigrade.remove(at: 1)
+```
+
+9. Insert over range
+
+```swift
+// Insert over range
+multigrade[1...multigrade.count-1] = ["good", "pass", "fail"]
+print(multigrade)
+```
+
+10. Mutable and immutable
+
+    > use `let` --> to achive immutable\
+    > use `var` --> to achieve Mutable
+
+```swift
+let weekends = ["Saturday", "Sunday"]
+weekends.append("Monday") // error: cannot use mutating member on immutable value: 'weekends' is a 'let' constant
+weekends[0] = "Monday" // error: cannot assign through subscript: 'weekends' is a 'let' constant
+```
+
+</details>

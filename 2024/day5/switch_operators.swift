@@ -1,27 +1,27 @@
-let numberOfItems = 3
+var numberOfItems = 3
 switch numberOfItems{
     case 0:
         print("Sorry you dont have any items on cart")
     case 1:
         print("You have 1 item on cart")
     case 2:
-        Print("You Have 2 items on cart")
+        print("You Have 2 items on cart")
     default:
-        Print("You have more than 2 items on cart")
+        print("You have more than 2 items on cart")
 }
 
 // Multiple values
 
-let numberOfItems = 3
-switch numberOfItems{
+var itemOnCart  = 3
+switch itemOnCart{
     case 0:
         print("Sorry you dont have any items on cart")
     case 1,2:
         print("You have less than 2 item on cart")
     case 3:
-        Print("You Have 3 items on cart")
+        print("You Have 3 items on cart")
     default:
-        Print("You have more than 4 items on cart")
+        print("You have more than 4 items on cart")
 }
 
 // Range matching
@@ -34,11 +34,11 @@ switch marks{
     case 60...80:
         print("Good")
     case 41...60:
-        Print("Pass")
+        print("Pass")
     case 0..<41:
-        Print("Fail")
+        print("Fail")
     default:
-        Print("Not defined")
+        print("Not defined")
 }
 
 
@@ -56,5 +56,5 @@ switch errors{
         print("You have more than 60% error")
         break
     default:
-        Print("error not defined")
+        print("error not defined")
 }
