@@ -24,10 +24,12 @@
   // String functions
   myName.uppercased()
   myName.lowercased()
-  myName.capitalized
+  myName.capitalized // this is present in foundation package
   myName.isEmpty
   myName.hasPrefix("Gi")
   ```
+
+<img width="279" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-SWIFT/assets/143807663/c399775c-d298-493b-bafc-a654255ecb40">
 
 - **stringInterpolation**
 
@@ -39,3 +41,5 @@ firstName + lastName // only strings can get joined if there is other type then 
 
 "My name is \(firstName) \(lastName) and age is \(age)"
 ```
+<img width="391" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-SWIFT/assets/143807663/bf38eb1b-6d09-4eb4-abab-4afcf3454b96">
+
