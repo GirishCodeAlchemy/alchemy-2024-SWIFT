@@ -42,3 +42,4 @@ Details["lastname"] = nil
 ```
 
    </details>
+<img width="1050" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-SWIFT/assets/143807663/15ad89fa-ff16-4a7e-91d4-172d6a4d14dc">
