@@ -3,6 +3,7 @@
 <details>
 <summary>Dictionary</summary>
 
+> [!NOTE]
 > You need to use [key:value, ]
 
 ```swift
@@ -25,7 +26,11 @@ Details["firstname"] = "Girish"
 ```
 
 3. Update value
-   > `updateValue(value : forKey: <key>)` which will return the previous value if not present nil and then update the value
+
+   > `updateValue(value : forKey: <key>)`
+
+   > [!NOTE]
+   > which will return the previous value if not present it will return nil and then update the value
 
 ```swift
 let previousLastName: String? = Details.updateValue("V", forKey: "lastname")
@@ -39,6 +44,14 @@ print("previous lastname \(previousLastName ?? "nil") and current value \(Detail
 ```swift
 Details.removeValue(forKey: "lastname")
 Details["lastname"] = nil
+```
+
+5. Methods in dict
+
+```swift
+Details.count
+Details.keys
+Array(Details.values)
 ```
 
    </details>
