@@ -1,6 +1,6 @@
 ### **Swift Functions**
 
-1. For loop
+1. Simple Function
 
    ```swift
    func showDetails(){
