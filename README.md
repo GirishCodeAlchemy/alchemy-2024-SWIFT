@@ -24,7 +24,7 @@ Look Inside directory for each day to learn swift
 
 - [Day 1](./2024/day1/Readme.md) --> First sample swift program
 - [Day 2](./2024/day2/Readme.md) --> Variables and datatype 
-- [Day 3](./2024/day3/Readme.md) --> Arthematic Operators, Typecasting
+- [Day 3](./2024/day3/Readme.md) --> Swift Operators, Typecasting
 - [Day 4](./2024/day4/Readme.md) --> Conditions, logical & ternary operators
 - [Day 5](./2024/day5/Readme.md) -->  Switch , Arrays
 - [Day 6](./2024/day6/Readme.md) --> Dictionary
