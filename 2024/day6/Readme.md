@@ -1,8 +1,5 @@
 ### **Dictionary**
-
-<details>
-<summary>Dictionary</summary>
-
+> [!NOTE]
 > You need to use [key:value, ]
 
 ```swift
@@ -25,7 +22,11 @@ Details["firstname"] = "Girish"
 ```
 
 3. Update value
-   > `updateValue(value : forKey: <key>)` which will return the previous value if not present nil and then update the value
+
+   > `updateValue(value : forKey: <key>)`
+
+> [!NOTE]
+> This will return the previous value if not present it will return nil and then update the value
 
 ```swift
 let previousLastName: String? = Details.updateValue("V", forKey: "lastname")
@@ -34,6 +35,7 @@ print("previous lastname \(previousLastName ?? "nil") and current value \(Detail
 
 4. Removing items from dictionary
    > `removeValue(forkey:)`
+   
    > another way is by setting the value to `nil`
 
 ```swift
@@ -41,5 +43,12 @@ Details.removeValue(forKey: "lastname")
 Details["lastname"] = nil
 ```
 
-   </details>
+5. Methods in dict
+
+```swift
+Details.count
+Details.keys
+Array(Details.values)
+```
+
 <img width="1050" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-SWIFT/assets/143807663/15ad89fa-ff16-4a7e-91d4-172d6a4d14dc">

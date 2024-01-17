@@ -21,3 +21,13 @@ let oldvalue = Details.removeValue(forKey: "lastname")
 print("old value is \(oldvalue ?? "nil"), lastname is removed \(Details)")
 Details["lastname"] = nil
 print(Details)
+
+
+// Dictionary Functions
+
+print("Number of keys \(Details.count)")
+print("keys method \(Details.keys)")
+var dictKeys = Array(Details.keys)
+var dictValues = Array(Details.values)
+print("keys in the dict \(dictKeys)")
+print("values in dict \(dictValues)")
