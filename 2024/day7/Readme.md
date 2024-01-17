@@ -8,8 +8,8 @@
    }
    ```
 
-   > [!IMPORTANT]
-   > if you dont want the value to be stored then use underscore `_`
+> [!IMPORTANT]
+> if you dont want the value to be stored then use underscore `_`
 
    ```swift
    for _ in 1...3{
@@ -27,8 +27,8 @@
 
    ```
 
-   > [!IMPORTANT]
-   > for index you need to add < so that it can handle out of index error
+> [!IMPORTANT]
+> for index you need to add < so that it can handle out of index error
 
    ```swift
    // to get the index
@@ -84,6 +84,9 @@
 
    ```
 
-   > [!TIP]
-   > while : iterater 0 or more times\
-   > repeat : iterate 1 or more times (similar to do while)
+> [!TIP]
+> while : iterater 0 or more times\
+> repeat : iterate 1 or more times (similar to do while)
+
+<img width="582" alt="image" src="https://github.com/GirishCodeAlchemy/alchemy-2024-SWIFT/assets/143807663/68a86136-16cd-4590-8c47-500c4f4aaf8e">
+
