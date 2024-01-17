@@ -21,3 +21,11 @@ or
 ### 2. Learning
 
 Look Inside directory for each day to learn swift
+
+- [Day 1](2024/day1/readme.md)
+- [Day 2](2024/day2/readme.md)
+- [Day 3](2024/day3/readme.md)
+- [Day 4](2024/day4/readme.md)
+- [Day 5](2024/day5/readme.md)
+- [Day 6](2024/day6/readme.md)
+- [Day 7](2024/day7/readme.md)
