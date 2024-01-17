@@ -25,8 +25,8 @@ Details["firstname"] = "Girish"
 
    > `updateValue(value : forKey: <key>)`
 
-   > [!NOTE]
-   > which will return the previous value if not present it will return nil and then update the value
+> [!NOTE]
+> This will return the previous value if not present it will return nil and then update the value
 
 ```swift
 let previousLastName: String? = Details.updateValue("V", forKey: "lastname")
@@ -35,6 +35,7 @@ print("previous lastname \(previousLastName ?? "nil") and current value \(Detail
 
 4. Removing items from dictionary
    > `removeValue(forkey:)`
+   
    > another way is by setting the value to `nil`
 
 ```swift
