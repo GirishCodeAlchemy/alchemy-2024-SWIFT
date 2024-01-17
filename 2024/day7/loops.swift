@@ -36,11 +36,31 @@ for (key,value) in Details {
 //Break and continue
 print("******Break and continue******")
 for num in 0...10{
-   if num == 2{
-      continue
-   } else if num == 5{
-      break
-   } else {
-      print(num)
+      if num == 2{
+         print("Conitnue for 2")
+         continue
+      } else if num == 5{
+         print("Break at 5")
+         break
+      } else {
+         print(num)
+      }
    }
+
+
+// while loop
+print("****** while loop *******")
+
+var count = 1
+while count <= 5{
+    print("count is \(count)")
+    count += 1
 }
+
+// repeat while loop
+
+var counter = 0
+repeat {
+    print("counter is \(counter)")
+    counter += 1
+} while counter < 10

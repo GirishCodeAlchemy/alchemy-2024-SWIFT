@@ -49,14 +49,41 @@
 
 4. Break and continue statement
 
-```swift
-for num in 0...10{
-   if num == 2{
-      continue
-   } else if num == 5{
-      break
-   } else {
-      print(num)
+   ```swift
+   for num in 0...10{
+      if num == 2{
+         print("Conitnue for 2")
+         continue
+      } else if num == 5{
+         print("Break at 5")
+         break
+      } else {
+         print(num)
+      }
    }
-}
-```
+   ```
+
+5. While loop
+
+   ```swift
+   var count= 1
+   while count <=5{
+      print("count is \(count)")
+      count +=1
+   }
+   ```
+
+6. Reapeat while loop
+
+   ```swift
+   var count = 0
+   repeat {
+      print("counter is \(count)")
+      count += 1
+   } while count < 10
+
+   ```
+
+   > [!TIP]
+   > while : iterater 0 or more times\
+   > repeat : iterate 1 or more times (similar to do while)
