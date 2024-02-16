@@ -29,3 +29,4 @@ Look Inside directory for each day to learn swift
 - [Day 5](./2024/day5/Readme.md) -->  Switch , Arrays
 - [Day 6](./2024/day6/Readme.md) --> Dictionary
 - [Day 7](./2024/day7/Readme.md) --> Various loops
+- [Day 8](./2024/day8/Readme.md) --> Swift Functions
